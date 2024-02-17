@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    width: 100vh;
+    height: 600px;
+    border: 1px solid #666;
+    text-align: center;
+    padding: 40px;
+    margin:30px;
+    transition: all 2s;
+}
+
+.card .icon{
+    display: flex;
+   text-align: left;
+}
+
+.card .icon-2{
+text-align: right;
+}
+
+.card .img img{
+    background-color: white;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #666;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 50%;
+    /* margin-right:10px ; */
+}
+
+.card h1{
+    margin: 10px;
+color: black;
+padding: 10px;
+}
+
+.card i {
+    margin-top: 5px;
+    color: black;
+    padding: 10px;
+}
+.card .social-icon{
+display: flex;
+justify-content: center;
+}
+
+.card .social-icon1 i{
+   color: blue;
+   border: 1px solid #666;
+   border-radius: 30px;
+   margin: 10px;
+}
+
+.card .social-icon2 i{
+    color:brown;
+    border: 1px solid #333;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px;
+ }
+
+ .btn button{
+    margin: 10px;
+    background-color:white;
+    color: black;
+    padding: 10px;
+    font-size: 1.4em;
+   
+ }
+
+ 
+ .coment{
+    display: flex;
+    justify-content: space-evenly;
+    
+ }
+
+ .coment .coment-1{
+    margin: 5px;
+    padding: 5px;
+ }
+
+ .cards:hover .card{
+    background-color: light red;
+ }
+
+ 
+ 
